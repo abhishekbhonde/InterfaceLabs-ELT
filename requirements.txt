@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 pydantic
-psycopg2
+psycopg2-binary  # Changed from psycopg2 to psycopg2-binary
 pandas
 sqlalchemy
 loguru  # For logging
