@@ -49,7 +49,7 @@ transaction_filter = st.sidebar.multiselect(
 
 if transaction_filter:
     filtered_data = filtered_data[filtered_data['Transaction Type'].isin(transaction_filter)]
-
+ 
 # Main Dashboard
 st.title("Transaction Analysis Dashboard")
 st.write("This dashboard provides insights into the transaction data.")
