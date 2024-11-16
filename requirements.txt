@@ -1,9 +1,11 @@
 fastapi
 uvicorn
 pydantic
-psycopg2-binary  # Changed from psycopg2 to psycopg2-binary
+psycopg2-binary
 pandas
 sqlalchemy
 loguru  # For logging
 matplotlib
 seaborn
+fpdf  # For PDF generation
+streamlit  # For Streamlit app
